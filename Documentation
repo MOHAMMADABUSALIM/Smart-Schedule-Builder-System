@@ -1,0 +1,5 @@
+# Abstract
+
+The Smart Schedule Builder System is designed to help university students construct their academic schedules step by step. 
+It allows students to select courses, assign lecture and lab times, and ensures no time conflicts or capacity violations occur. 
+The system applies the Builder Design Pattern for flexibility, scalability, and maintainability.
