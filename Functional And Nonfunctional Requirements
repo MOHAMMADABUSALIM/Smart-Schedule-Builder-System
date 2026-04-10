@@ -1,0 +1,100 @@
+Functional requirements and Nonfunctional requirements:
+
+Functional Requirements (FR):
+
+Student Functional Requirements:
+
+• FR1: The system shall allow students to log in to the schedule builder platform.
+• FR2: The system shall allow students to browse available courses and their time
+slots.
+• FR3: The system shall allow students to build their schedule step-by-step using the
+Builder interface.
+• FR4: The system shall allow students to check for time conflicts between selected
+courses.
+• FR5: The system shall allow students to view real-time capacity and seat availability
+for each section.
+• FR6: The system shall allow students to confirm and save their finalized built
+schedule.
+• FR7: The system shall allow students to view their previous academic schedules.
+
+Instructor Functional Requirements:
+
+• FR8: The system shall allow instructors to view a dashboard showing their assigned
+sections.
+• FR9: The system shall allow instructors to view the list of registered students in
+their classes.
+• FR10: The system shall allow instructors to monitor laboratory capacity and
+equipment constraints.
+• FR11: The system shall allow instructors to send announcements to students in
+their specific sections.
+• FR12: The system shall allow instructors to view student attendance and
+engagement reports.
+• FR13: The system shall allow instructors to update their personal availability and 
+
+Admin Functional Requirements:
+
+• FR14: The system shall allow the admin to view an administrative dashboard for
+system monitoring
+• FR15: The system shall allow the admin to create, update, and delete course data
+and time slots.
+• FR16: The system shall allow the admin to add, edit, and remove student and
+instructor accounts.
+• FR17: The system shall allow the admin to set maximum capacity constraints for all
+sections.
+• FR18: The system shall allow the admin to view system-wide enrollment and
+capacity reports.
+• FR19: The system shall allow the admin to manage registration periods and system
+access dates.
+• FR20: The system shall allow the admin to update institutional settings and
+department information
+
+Guest Functional Requirements:
+
+• FR21: The system shall allow guests to browse the public course catalog without
+logging in.
+• FR22: The system shall allow guests to view general university information and
+registration guides.
+• FR23: The system shall allow guests to register for a new student account
+
+Manager Functional Requirements:
+
+• FR24: The system shall allow the manager to view a dashboard with registration
+and demand insights.
+• FR25: The system shall allow the manager to view overall system performance and
+resource reports.
+• FR26: The system shall allow the manager to view capacity statistics to assist in
+decision-making.
+
+Accountant Functional Requirements:
+
+• FR27: The system shall allow the accountant to view a financial dashboard related
+to registration fees.
+• FR28: The system shall allow the accountant to manage, verify, and track student
+payment statuses.
+• FR29: The system shall allow the accountant to generate and view comprehensive 
+
+
+
+
+Non-Functional Requirements (NFR):
+
+• NFR1: The system shall protect student and user data using high-level encryption.
+• NFR2: The system shall apply role-based access control for all types of users.
+• NFR3: The system shall ensure data integrity for all schedule and capacity
+information.
+• NFR4: Dashboards shall load within 3 seconds under normal and peak usage.
+• NFR5: Conflict detection and capacity checks shall respond efficiently without
+delays.
+• NFR6: Capacity and enrollment reports shall be generated within 5 seconds.
+• NFR7: The system shall provide a simple and intuitive user interface for all roles.
+• NFR8: The system shall be available 24/7 with minimal scheduled maintenance.
+• NFR9: The system shall support at least 10,000 concurrent users during
+registration.
+• NFR10: The system shall be compatible with all major web browsers (Chrome,
+Edge, Safari).
+• NFR11: The system shall automatically log users out after a period of inactivity for
+security.
+• NFR12: All system activities and registration changes shall be logged for auditing
+purposes.
+• NFR13: Regular database backups shall be performed to prevent any loss of
+schedule data
