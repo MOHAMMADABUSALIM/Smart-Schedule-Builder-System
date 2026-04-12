@@ -1,0 +1,205 @@
+1. Internal Stakeholders
+1. Development Team
+Description: Programmers, UI/UX designers, testers building the system
+Role: Design, develop, test, and maintain the application
+Interest: High (they directly work on the project)
+Influence: High (they determine system quality and features)
+Classification:
+Internal
+Primary Stakeholder
+High Power / High Interest
+2. Project Manager
+Description: Person responsible for planning, execution, and delivery
+Role: Manages timeline, resources, and team coordination
+Interest: High
+Influence: High
+Classification:
+Internal
+Primary Stakeholder
+High Power / High Interest
+3. Product Owner / System Analyst
+Description: Defines requirements and ensures the system meets user needs
+Role: Bridges gap between users and developers
+Interest: High
+Influence: High
+Classification:
+Internal
+Primary Stakeholder
+High Power / High Interest
+🔹 2. External Stakeholders
+4. Students (End Users)
+Description: University students using the scheduler
+Role: Input preferences, generate schedules
+Interest: Very High
+Influence: Medium (feedback affects improvements)
+Classification:
+External
+Primary Stakeholder
+Low Power / High Interest
+5. University Administration
+Description: Faculty admins, registrars, academic offices
+Role: Provide course data, policies, and constraints
+Interest: High
+Influence: Very High (they approve or reject system use)
+Classification:
+External
+Primary Stakeholder
+High Power / High Interest
+6. Academic Advisors
+Description: Staff guiding students in course selection
+Role: Use system to assist students in planning
+Interest: High
+Influence: Medium
+Classification:
+External
+Secondary Stakeholder
+Medium Power / High Interest
+7. IT Department (University)
+Description: Technical staff managing infrastructure
+Role: Integration, deployment, system maintenance
+Interest: Medium
+Influence: High
+Classification:
+External (but operationally internal to university)
+Primary Stakeholder
+High Power / Medium Interest
+8. Instructors / Professors
+Description: Teaching staff whose schedules are involved
+Role: Provide availability and teaching constraints
+Interest: Medium
+Influence: Medium
+Classification:
+External
+Secondary Stakeholder
+Medium Power / Medium Interest
+9. Parents (Optional Stakeholder)
+Description: Especially in some regions, parents track student progress
+Role: Indirect users (view schedules)
+Interest: Low–Medium
+Influence: Low
+Classification:
+External
+Tertiary Stakeholder
+Low Power / Low Interest
+10. Third-party Service Providers
+Description: APIs, cloud hosting (e.g., authentication, database services)
+Role: Support system functionality
+Interest: Medium
+Influence: Medium
+Classification:
+External
+Secondary Stakeholder
+Medium Power / Medium Interest
+🔹 3. Stakeholder Classification Summary
+✔ Primary Stakeholders (Direct Impact)
+Students
+University Administration
+Development Team
+Project Manager
+Product Owner
+IT Department
+✔ Secondary Stakeholders (Indirect Impact)
+Academic Advisors
+Professors
+Third-party Providers
+
+🎯 Project Aim
+
+To design and develop an intelligent system that helps students automatically generate optimized academic schedules based on their preferences, course availability, and university constraints, improving efficiency and reducing scheduling conflicts.
+
+✅ Project Objectives
+1. Automate Schedule Generation
+Build a system that creates schedules without manual trial-and-error
+Reduce time spent on course planning
+2. Handle Constraints Efficiently
+Ensure no time conflicts between classes
+Consider prerequisites, course availability, and credit limits
+3. Personalization
+Allow students to set preferences such as:
+Preferred days/times
+Break durations
+Instructor choices (if applicable)
+4. Improve User Experience
+Provide a simple, intuitive interface
+Enable easy editing and comparison of schedules
+5. Integration with University Data
+Connect with course databases or registration systems
+Ensure real-time and accurate information
+6. Support Decision Making
+Help students choose optimal schedules
+Offer multiple schedule options
+7. Scalability and Performance
+Ensure the system works efficiently for many users
+Handle large datasets (courses, students, constraints)
+8. Reliability and Accuracy
+Generate correct and conflict-free schedules
+Minimize errors in course selection
+9. Accessibility
+Make the system usable across devices (web/mobile if needed)
+
+
+💡 Proposed Solution
+
+The proposed solution is to develop a Smart Student Schedule Builder (SSSB), an intelligent software system that automatically generates optimized academic schedules for students based on their preferences, academic requirements, and university constraints.
+
+🔹 1. System Overview
+
+The system will act as a decision-support tool that:
+
+Collects student input (courses, preferences)
+Processes university data (course times, sections, rules)
+Generates multiple conflict-free schedule options
+🔹 2. Core Features
+✅ Automated Schedule Generation
+Use an algorithm to generate valid schedules
+Eliminate time conflicts between classes
+✅ Constraint-Based Engine
+
+The system will consider:
+
+Course prerequisites
+Credit hour limits
+Section availability
+Time conflicts
+
+👉 This ensures all generated schedules are valid and realistic
+
+✅ Preference-Based Customization
+
+Students can customize:
+
+Preferred days (e.g., avoid Fridays)
+Time ranges (morning/evening classes)
+Break times between lectures
+✅ Multiple Schedule Options
+Generate several alternative schedules
+Allow comparison and selection
+✅ User-Friendly Interface
+Simple input forms
+Visual timetable display
+Easy editing and regeneration
+✅ Integration with University Systems
+Connect to course database (manual or API)
+Keep course data updated
+🔹 3. Technology Approach (Suggested)
+💻 Frontend:
+Web interface (HTML, CSS, JavaScript)
+⚙ Backend:
+Java / Python / Node.js (depending on your course)
+🧠 Scheduling Algorithm:
+Constraint Satisfaction Problem (CSP) approach
+Or simple rule-based filtering + optimization
+🗄 Database:
+Store courses, sections, student preferences
+🔹 4. How It Works (Workflow)
+Student selects courses
+System retrieves available sections
+Algorithm filters valid combinations
+Applies preferences
+Outputs best schedule options
+🔹 5. Expected Benefits
+Saves time and effort for students
+Reduces human error in scheduling
+Improves academic planning
+Supports better decision-making
+🚀 Simple Summary (for report)
