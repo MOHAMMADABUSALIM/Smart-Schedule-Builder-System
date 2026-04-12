@@ -1,0 +1,24 @@
+[1:01 AM, 4/8/2026] Hamza : Introduction and Problem Statement
+[1:02 AM, 4/8/2026] Hamza : In university registration systems, students often need to build their schedules by selecting multiple courses, lectures, and lab sections based on their personal preferences and available time slots. However, this process is not always simple, because each course may have several lecture and lab options, and each section has a limited capacity. As a result, students may face schedule conflicts, unavailable sections, or difficulty finding the best possible combination manually.
+
+This project presents a Smart Student Schedule Builder that applies the Builder Design Pattern to solve this problem in an organized and flexible way. Instead of creating the student’s schedule all at once, the system builds it step by step. The student can choose a course, then select a preferred lecture time, and then choose a lab section if required. During this process, the system checks time conflicts and section capacities before confirming each choice.
+
+Using the Builder pattern makes the schedule creation process clearer, more maintainable, and easier to extend in the future. It allows the system to construct different valid schedules while keeping the building process structured and user-friendly.
+[1:03 AM, 4/8/2026] Hamza : Reason for Choosing Builder Pattern
+
+The Builder Design Pattern was selected because the student schedule is a complex object that cannot be created in a single step. It must be built gradually by selecting courses, lecture sections, lab sections, and checking capacity and time conflicts.
+
+This pattern is suitable because it supports step-by-step object creation, which matches the actual process of building a university schedule. It also provides flexibility, since different students may have different course selections and scheduling preferences.
+
+In addition, the Builder Pattern separates the construction process from the final schedule object, making the system easier to understand, maintain, and extend.
+
+Therefore, the Builder Pattern is an effective solution for creating organized, flexible, and conflict-free student schedules.
+[1:03 AM, 4/8/2026] Hamza : Abstract
+
+This project introduces a Smart Student Schedule Builder designed to solve common problems in university course registration, such as time conflicts, limited section capacities, and the complexity of manually creating a suitable schedule.
+
+The system is based on the Builder Design Pattern, which allows the schedule to be constructed step by step. Students can choose courses, lecture sections, and lab sections according to their preferences, while the system verifies capacity availability and detects scheduling conflicts.
+
+The Builder Pattern was selected because it is well-suited for creating complex objects through a structured and flexible process. Since each student may require a different schedule, this pattern provides an efficient way to support multiple schedule configurations without increasing code complexity.
+
+The final result is a system capable of generating organized, personalized, and valid student schedules in a maintainable and scalable way.
